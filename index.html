@@ -1,3 +1,19 @@
+<!-- <?php
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "bike";
+
+$conn = mysqli_connect ($servername, $username, $password, $database);
+
+if(!$conn){
+    die("connection to this database failed due to" . mysqli_connect_error());
+}
+?> -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,8 +36,7 @@
         <a href="index.html"><img src="img/logo-roar-bikes.svg" alt="roar bikes logo "></a>
     </div>
     <nav>
-        <div class="navbutton">
-             <a href="#">Book Online</a>
+        <div class="navbutton"><a href="#">Book Online</a>
            <div class="dropbox">
             <div class="navbutton"><a href="#">Onsite Service</a></div>
             <div class="navbutton"><a href="#">Part delivery</a></div>
@@ -33,7 +48,7 @@
         <a href="#">About</a>
         </div>
         <div class="navbutton">
-        <a href="contact-us.html">Contact</a>
+        <a href="contact-us.php">Contact</a>
         </div>
     </nav>
     </header>
